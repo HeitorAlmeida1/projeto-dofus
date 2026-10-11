@@ -1,77 +1,38 @@
 # AGENTS.md
 
-## Visao geral
+## Visão geral
 
-Projeto academico baseado em Dofus, com foco no site KamaFarm.
+Neste projeto acadêmico com o foco no jogo Dofus, tenho como objetivo central exeplicar o por que este jogo faz parte e a importancia dele em minha vida, alem disto como uma atividade imposta precisa-se ter uma dashboard e para alimentar ela com informações irei fazer uma parte do site com uma especie de calculadora, que vai-se ter alguns itens ja predefinidos e o usuario colocará o preço, com um calculo interno mostrarei nesta dashboard quais os melhores itens a serem farmados ou piores.
 
-Objetivo inicial:
-- criar pagina principal
-- criar login e cadastro
-- criar dashboard simples
+## Tecnologias
 
-## Tecnologias (inicio)
+Neste projeto por uma falta de bibliotecas públicas de Dofus irei fazer uma base de dados interna escrita a mão pela minha pessoa que alguns itens/recursos do jogo, algo simples nada muito grande, como tecnologias usaria o VS Code, progamando principalmente em HTML, CSS e JavaScript, baseado em uma API que o professor ja disponibilizou para uso deste projeto individual acadêmico.
 
-- Node.js
-- Express
-- MySQL
-- HTML, CSS e JavaScript puro
+## Comandos
 
-## Arquitetura basica
+Informe os comandos necessários para trabalhar com o projeto.
 
-Manter o fluxo simples:
-1. Front-end em `public/` chama `fetch(...)`
-2. Rota em `src/routes/`
-3. Controller em `src/controllers/`
-4. Model em `src/models/`
-5. Query executada por `src/database/config.js`
+## Arquitetura
 
-## Padrao de implementacao
+Explique como o projeto está organizado e como uma funcionalidade deve ser implementada.
+Inclua informações como:
+- Estrutura das principais pastas
+- Responsabilidade de cada pasta
+- Fluxo de uma requisição
+- Onde criar novos arquivos
+- Como os diretórios se relacionam
 
-- seguir estrutura por recurso: rota + controller + model
-- manter codigo didatico e simples para iniciante
-- evitar mudancas grandes sem necessidade
+## Padrões de desenvolvimento
 
-## Identidade visual v2 (base atual)
+Exemplos:
+- Use apenas let pois é a única variavel que aprendi e que uso no meu dia a dia.
+- Mantenha sempre o padrão imposta ja achado nos arquivos, em variaveis sempre nomeia_com_undescore, nunca nomeiaComMaisculo.
+- Para commit nao precisa ter um padrão pois irei fazer isto manualmente.
 
-Esta identidade deve ser usada como referencia principal neste momento.
+## Cuidados e restrições
 
-### Cores principais
+Sempre que eu te pedir alguma ajuda nunca faça nada sem a minha pessoa aprovar, e se possivel nunca escreva nada apenas me oriente como eu chego naquele resultado, e sempre peça a minha validação para quaisquer que seja a tomada de decisão, pois como eu ja mencionei este projeto é acadêmico, estou  produzindo isto a fim de um aprendizado então eu preciso sim quebrar a cabeça, então sempre me deixe quebrar a cabeça nunca me de respostas faceis ou faça o serviço pela minha pessoa.
 
-- `#8AB922` verde principal (botao Jogar e destaque)
-- `#0F3B0B` verde escuro (botao secundario)
-- `#F4C020` amarelo (acoes e titulos de destaque)
-- `#F0A83A` laranja-ouro (subtitulos)
-- `#FFFFFF` branco (titulos e menu)
-- `#BDBDBD` cinza claro (textos secundarios e links de rodape)
 
-### Fundos
-
-- `#120D08` fundo geral da pagina
-- `#16110E` barra/menu do topo
-- `#2A1D14` secoes de apoio
-- `#2D2050` cartoes/area de noticias
-- `#0F2A2E` secao de forum
-- `#000000` rodape
-
-### Fontes
-
-- `Montserrat`: menu, titulos grandes, botoes e subtitulos
-- `Bebas Neue`: titulos de secao e botoes amarelos
-- `Roboto`: textos corridos e conteudo geral
-- `Cinzel`: uso opcional em destaque visual
-
-### Componentes visuais (inicio)
-
-- menu superior escuro com links brancos
-- botao principal verde e botao secundario verde escuro
-- botao amarelo para CTA de destaque
-- secoes com fundo escuro e contraste alto
-- rodape preto com links em cinza claro
-
-### Rodape obrigatorio
-
-"Projeto academico sem fins lucrativos. Dofus e suas imagens pertencem a Ankama Games. Dados e imagens: DofusDB."
-
-## Regra geral
-
-Para este comeco, manter tudo simples, consistente e alinhado com a identidade visual v2. Depois podemos expandir este AGENTS.md aos poucos.
+## Regra geral: 
+Antes de implementar uma alteração, siga as tecnologias, arquitetura, convenções e restrições descritas neste documento. Caso alguma informação esteja ausente, analise o código existente e siga os padrões já adotados no projeto.
