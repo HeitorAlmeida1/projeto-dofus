@@ -2,7 +2,7 @@
 
 ## Visão geral
 
-Neste projeto acadêmico com o foco no jogo Dofus, tenho como objetivo central exeplicar o por que este jogo faz parte e a importancia dele em minha vida, alem disto como uma atividade imposta precisa-se ter uma dashboard e para alimentar ela com informações irei fazer uma parte do site com uma especie de calculadora, que vai-se ter alguns itens ja predefinidos e o usuario colocará o preço, com um calculo interno mostrarei nesta dashboard quais os melhores itens a serem farmados ou piores.
+Neste projeto acadêmico com o foco no jogo Dofus, tenho como objetivo central explicar o por que este jogo faz parte e a importancia dele em minha vida, alem disto como uma atividade imposta precisa-se ter uma dashboard e para alimentar ela com informações irei fazer uma parte do site com uma especie de calculadora, que vai-se ter alguns itens ja predefinidos e o usuario colocará o preço, com um calculo interno mostrarei nesta dashboard quais os melhores itens a serem farmados ou piores.
 
 ## Tecnologias
 
